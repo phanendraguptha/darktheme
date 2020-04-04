@@ -1,8 +1,9 @@
 {
-  "name": "dark-mode",
+  "name": "darktheme",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://phanendraguptha.github.io/darktheme",
   "dependencies": {
     "gh-pages": "^2.2.0"
   },
@@ -11,6 +12,5 @@
     "deploy": "gh-pages -d dist"
   },
   "author": "",
-  "license": "ISC",
-  "homepage": "https://phanendraguptha.github.io/darkmode"
+  "license": "ISC"
 }
