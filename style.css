@@ -1,0 +1,35 @@
+html{
+  --bg: #FCFCFC;
+  --bg-panel: #EBEBEB;/*box*/
+  --color-headings: #0077FF;/*heading*/
+  --color-text: #333333;/*paragraph*/
+}
+html[data-theme='dark']{
+  --bg: #333333;
+    --bg-panel: #434343;
+    --color-headings: #3694FF;
+    --color-text: #B5B5B5;
+}
+body{
+  font-family: "Montserrat",sans-serif;
+  background-color: var(--bg);
+}
+h2{
+  font-size: 39px;
+  /*line-height: 69px;*/
+  color:var(--color-headings);
+}
+div h2 span{
+  float: right;
+}
+div p{
+  font-size: 20px;
+  color: var(--color-text);
+}
+.box{
+  border-radius: 15px;
+  margin: auto;
+  padding:25px;
+  width:750px;
+  background-color: var(--bg-panel); 
+}
