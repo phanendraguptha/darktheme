@@ -10,6 +10,7 @@ html{
   justify-content:center;
   margin: 0;
   padding: 0;
+  -webkit-tap-highlight-color: transparent;
 }
 /* dark theme colors */
 html[data-theme='dark']{
